@@ -14,7 +14,7 @@ return new class () extends BasePage {
     public function patch()
     {
         return UpdateAction::new()
-            ->validate(function (DictModel $dict, $req) {
+            ->validate(static function (DictModel $dict, $req) {
                 $v = V::defaultOptional()->defaultNotEmpty();
                 $v->setModel($dict);
                 $v->modelColumn('name', '名称')->requiredIfNew()->notModelDup();

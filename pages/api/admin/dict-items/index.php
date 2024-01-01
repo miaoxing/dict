@@ -18,7 +18,7 @@ return new class () extends BasePage {
     public function get()
     {
         return IndexAction::new()
-            ->beforeFind(function (DictItemModel $items, $req) {
+            ->beforeFind(static function (DictItemModel $items, $req) {
                 if ($req['code']) {
                     $dict = DictModel::findByOrFail('code', $req['code']);
                     $items->where('dictId', $dict->id);

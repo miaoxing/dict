@@ -15,7 +15,7 @@ return new class () extends BasePage {
     public function patch()
     {
         return UpdateAction::new()
-            ->validate(function (DictItemModel $item, $req) {
+            ->validate(static function (DictItemModel $item, $req) {
                 $v = V::defaultOptional()->defaultNotEmpty();
                 $v->setModel($item);
 
