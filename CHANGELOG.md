@@ -1,3 +1,13 @@
+## [1.1.8](https://github.com/miaoxing/dict/compare/v1.1.7...v1.1.8) (2024-01-31)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/admin:** upgrade from `0.11.5` to `0.12.0`
+
 ## [1.1.7](https://github.com/miaoxing/dict/compare/v1.1.6...v1.1.7) (2024-01-08)
 
 
