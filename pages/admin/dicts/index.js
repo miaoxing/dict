@@ -1,7 +1,6 @@
-import {Table, TableProvider, CTableDeleteLink, useTable} from '@mxjs/a-table';
+import { Table, TableProvider, CTableDeleteLink, useTable, TableActions } from '@mxjs/a-table';
 import {CEditLink, CNewBtn} from '@mxjs/a-clink';
 import {Page, PageActions} from '@mxjs/a-page';
-import {LinkActions} from '@mxjs/actions';
 import {Link} from '@mxjs/router';
 import $ from 'miaoxing';
 
@@ -34,11 +33,11 @@ const Index = () => {
               title: '操作',
               dataIndex: 'id',
               render: (id, item) => (
-                <LinkActions>
+                <TableActions>
                   <Link to={$.url('admin/dict-items', {search: {dictId: id}})}>查看数据</Link>
                   <CEditLink id={id}/>
                   {!item.isBuiltIn && <CTableDeleteLink id={id}/>}
-                </LinkActions>
+                </TableActions>
               ),
             },
           ]}
