@@ -6,7 +6,7 @@ import {Page, PageActions} from '@mxjs/a-page';
 import {Form, FormItem, FormAction, Select} from '@mxjs/a-form';
 import {FormItemSort} from '@miaoxing/admin';
 import {useEffect, useState} from 'react';
-import api from 'packages/mxjs-api';
+import api from '@mxjs/api';
 
 const New = () => {
   const [carousels, setCarousels] = useState([]);
