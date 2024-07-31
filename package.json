@@ -1,6 +1,6 @@
 {
   "name": "@miaoxing/dict",
-  "version": "1.1.14",
+  "version": "1.2.0",
   "private": true,
   "main": "index.js",
   "repository": "git@github.com:miaoxing/dict.git",
@@ -10,7 +10,7 @@
     "plugins/*"
   ],
   "devDependencies": {
-    "@miaoxing/dev": "^9.1.1"
+    "@miaoxing/dev": "^9.1.2"
   },
   "jest": {
     "preset": "jest-preset-miaoxing"

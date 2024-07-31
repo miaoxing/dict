@@ -1,3 +1,26 @@
+# [1.2.0](https://github.com/miaoxing/dict/compare/v1.1.14...v1.2.0) (2024-07-31)
+
+
+### Bug Fixes
+
+* **dict:** 更新 api 通过包名导入 ([55cbba6](https://github.com/miaoxing/dict/commit/55cbba61dc5fb42eca2a988f5f0bda6f76fb20c3))
+
+
+### Features
+
+* **u:** 调整页面内容为卡片视图 ([9ebd483](https://github.com/miaoxing/dict/commit/9ebd4833f7081799e6fac6ec5a9a92d8d7468fbf))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `9.1.1` to `9.1.2`
+* **@miaoxing/plugin:** upgrade from `0.15.0` to `0.15.1`
+* **@miaoxing/services:** upgrade from `0.9.3` to `0.9.4`
+* **@miaoxing/admin:** upgrade from `0.13.2` to `0.14.0`
+
 ## [1.1.14](https://github.com/miaoxing/dict/compare/v1.1.13...v1.1.14) (2024-06-30)
 
 
