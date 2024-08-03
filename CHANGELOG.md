@@ -1,3 +1,16 @@
+## [1.2.2](https://github.com/miaoxing/dict/compare/v1.2.1...v1.2.2) (2024-08-03)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `9.1.2` to `9.1.3`
+* **@miaoxing/plugin:** upgrade from `0.15.1` to `0.15.2`
+* **@miaoxing/services:** upgrade from `0.9.4` to `0.9.5`
+* **@miaoxing/admin:** upgrade from `0.15.0` to `0.15.1`
+
 ## [1.2.1](https://github.com/miaoxing/dict/compare/v1.2.0...v1.2.1) (2024-08-02)
 
 
