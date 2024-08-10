@@ -3,7 +3,7 @@
 use Miaoxing\Dict\Service\DictModel;
 use Miaoxing\Plugin\BasePage;
 
-return new class () extends BasePage {
+return new class extends BasePage {
     public function get($req)
     {
         $dict = DictModel::findByOrFail('code', $req['id']);
