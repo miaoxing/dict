@@ -11,8 +11,8 @@ class DictPlugin extends BasePlugin
 
     public function onAdminMenuGetMenus(AdminMenu $menu)
     {
-        $setting = $menu->getChild('setting');
-        $dicts = $setting->addChild()->setLabel('字典管理')->setUrl('admin/dicts');
+        $system = $menu->child('system');
+        $dicts = $system->addChild()->setLabel('字典管理')->setUrl('admin/dicts');
         $dicts->addChild()->setLabel('添加')->setUrl('admin/dicts/new');
         $dicts->addChild()->setLabel('编辑')->setUrl('admin/dicts/[id]/edit');
 
